@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Management | Schedule Order Deliveries</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-left">
+            <div class="logo-container">
+                <a href="../index.html"><img class="logo-W" src="../assets/img/logo/locus-white.svg"></a>
+            </div>
+            <ul class="nav-links">
+                <li>
+                    <a href="#"><p>Platform</p></a>
+                </li>
+                <li>
+                    <a href="#"><p>Products</p> <img src="../assets/img/header_arrow.svg" class="dropdown-arrow"></a>
+                    <div class="dropdown">
+                        <div class="dropdown-header has-nested">Fulfillment Automation
+                            <img src="../assets/img/header_arrow.svg" class="dropdown-arrow">
+                            <div class="nested-dropdown">
+                                <a href="order-management.html" class="nested-dropdown-item">Order Management</a>
+                                <a href="delivery-linked-checkout.html" class="nested-dropdown-item">Delivery Linked Checkout</a>
+                            </div>
+                        </div>
+                        <div class="dropdown-header has-nested">Dispatch Planning
+                            <img src="../assets/img/header_arrow.svg" class="dropdown-arrow">
+                            <div class="nested-dropdown">
+                                <a href="automated-hub-operations.html" class="nested-dropdown-item">Hub Operations</a>
+                                <a href="capacity-management-software.html" class="nested-dropdown-item">Capacity Management</a>
+                                <a href="route-planning-system.html" class="nested-dropdown-item">Route Planning</a>
+                            </div>
+                        </div>
+                        <div class="dropdown-header has-nested">Delivery Orchestration
+                            <img src="../assets/img/header_arrow.svg" class="dropdown-arrow">
+                            <div class="nested-dropdown">
+                                <a href="transporter-management-software.html" class="nested-dropdown-item">Transporter Management</a>
+                                <a href="#" class="nested-dropdown-item">ShipFlex</a>
+                            </div>
+                        </div>
+                        <div class="dropdown-header has-nested">Track and Trace
+                            <img src="../assets/img/header_arrow.svg" class="dropdown-arrow">
+                            <div class="nested-dropdown">
+                                <a href="driver-companion-app.html" class="nested-dropdown-item">Driver Companion App</a>
+                                <a href="control-tower-software.html" class="nested-dropdown-item">Control Tower</a>
+                                <a href="shipment-tracking-system.html" class="nested-dropdown-item">Tracking Page</a>
+                            </div>
+                        </div>
+                        <div class="dropdown-header has-nested">Analytics and Insights
+                            <img src="../assets/img/header_arrow.svg" class="dropdown-arrow">
+                            <div class="nested-dropdown">
+                                <a href="logistics-business-insights.html" class="nested-dropdown-item">Business Insights</a>
+                                <a href="location-analytics.html" class="nested-dropdown-item">Location Analytics</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href="#"><p>Industries</p> <img src="../assets/img/header_arrow.svg" class="dropdown-arrow"></a>    
+                    <div class="dropdown">
+                        <a href="retail.html" class="dropdown-item">Retail</a>
+                        <a href="#" class="dropdown-item">FMCG/CPG</a>
+                        <a href="#" class="dropdown-item">3PL & CEP</a>
+                        <a href="#" class="dropdown-item">Big & Bulky</a>
+                        <div class="dropdown-header has-nested">Other Industries
+                            <img src="../assets/img/header_arrow.svg" class="dropdown-arrow">
+                            <div class="nested-dropdown">
+                                <a href="#" class="nested-dropdown-item">Healthcare</a>
+                                <a href="#" class="nested-dropdown-item">Education</a>
+                                <a href="#" class="nested-dropdown-item">Government</a>
+                                <a href="#" class="nested-dropdown-item">Non-Profit</a>
+                            </div>
+                        </div>
+                        <a href="#" class="dropdown-item">E-commerce</a>
+                        <a href="#" class="dropdown-item">E-grocery</a>
+                        <a href="#" class="dropdown-item">Industrial Services</a>
+                        <a href="#" class="dropdown-item">Manufacturing</a>
+                        <a href="#" class="dropdown-item">Home Services</a>
+                    </div>
+                </li>
+                <li>
+                    <a href="#"><p>Resources</p> <img src="../assets/img/header_arrow.svg" class="dropdown-arrow"></a>
+                    <div class="dropdown">
+                        <div class="dropdown-header has-nested">Guides
+                            <img src="../assets/img/header_arrow.svg" class="dropdown-arrow">
+                            <div class="nested-dropdown">
+                                <a href="#" class="nested-dropdown-item">Reducing Cart Abandonment</a>
+                                <a href="#" class="nested-dropdown-item">Reducing WISMO Calls</a>
+                                <a href="#" class="nested-dropdown-item">Logistics Trends 2024</a>
+                                <a href="#" class="nested-dropdown-item">Unit Economics in Last-mile</a>
+                                <a href="#" class="nested-dropdown-item">Last-mile Delivery Logistics</a>
+                                <a href="#" class="nested-dropdown-item">Time Under the Roof</a>
+                                <a href="#" class="nested-dropdown-item">Peak Shipping Season</a>
+                                <a href="#" class="nested-dropdown-item">Electronic Products</a>
+                                <a href="#" class="nested-dropdown-item">Fleet Management</a>
+                                <a href="#" class="nested-dropdown-item">Healthcare Logistics</a>
+                                <a href="#" class="nested-dropdown-item">Transport Management System</a>
+                                <a href="#" class="nested-dropdown-item">E-commerce Logistics</a>
+                                <a href="#" class="nested-dropdown-item">Direct Store Delivery</a>
+                                <a href="#" class="nested-dropdown-item">Logistics Route Planner Guide</a>
+                            </div>
+                        </div>
+                        
+                        <div class="dropdown-header">Other Resources</div>
+                        <a href="#" class="dropdown-item">Whitepapers</a>
+                        <a href="#" class="dropdown-item">Case Studies</a>
+                        <a href="#" class="dropdown-item">Infographics</a>
+                        <a href="#" class="dropdown-item">E-books</a>
+                        <a href="#" class="dropdown-item">Blogs</a>
+                        <a href="#" class="dropdown-item">Events & Webinars</a>
+                        <a href="#" class="dropdown-item">Videos</a>
+                        <a href="#" class="dropdown-item">API Reference Docs</a>
+                        <a href="#" class="dropdown-item">Glossary</a>
+                    </div>
+                </li>
+                <li>
+                    <a href="#"><p>Company</p> <img src="../assets/img/header_arrow.svg" class="dropdown-arrow"></a>
+                    <div class="dropdown">
+                        <a href="#" class="dropdown-item">About Us</a>
+                        <div class="dropdown-header has-nested">Global Presence
+                            <img src="../assets/img/header_arrow.svg" class="dropdown-arrow">
+                            <div class="nested-dropdown">
+                                <a href="#" class="nested-dropdown-item">Americas</a>
+                                <a href="#" class="nested-dropdown-item">Asia Pacific</a>
+                                <a href="#" class="nested-dropdown-item">Middle East</a>
+                            </div>
+                        </div>
+                        <a href="#" class="dropdown-item">Analyst Recognition</a>
+                        <a href="#" class="dropdown-item">Careers</a>
+                        <a href="#" class="dropdown-item">News & Press</a>
+                        <a href="#" class="dropdown-item">Trust & Security</a>
+                        <a href="#" class="dropdown-item">Contact Us</a>
+                    </div>
+                </li>
+            </ul>
+            <div class="language-selector">
+                <span>en</span>
+                <img src="../assets/globe-logo-white.svg">
+            </div>
+        </div>
+        <div class="nav-right">
+            <a href="schedule-demo.html" class="demo-button">Schedule a demo</a>
+        </div>
+    </nav>
+    </nav>
+
+    <div class="order-management-hero-section">
+        <div class="order-management-breadcrumb">
+            <a href="/index.html">Home</a> > <a href="#">Dispatch Planning</a> > Capacity Management
+        </div>
+        <div class="order-management-hero-content">
+            <div class="order-management-hero-left">
+                <h1>Capacity Management</h1>
+                <p>Ensure adequate for efficient fulfillment at any given time by organizing driver schedules and tracking resource availability for shipment allocation with an integrated shift and roster management system.</p>
+                <div class="order-management-hero-buttons">
+                    <a href="#" class="order-management-btn-primary">Get In Touch</a>
+                    <a href="#" class="order-management-btn-secondary">Watch Demos</a>
+                </div>
+            </div>
+            <div class="order-management-hero-right">
+                <div class="order-management-image-placeholder">
+                    <img src="/assets/img/image-platform-screen-CM.webp" alt="" srcset="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="order-management-intelligent-order-section">
+        <div class="order-management-intelligent-order-container">
+            <div class="order-management-intelligent-order-text-content">
+                <h2>Flexible scheduling for optimal resource management</h2>
+                <p>Capacity management keeps businesses growing by using flexible scheduling to handle fluctuations in demand and resources. It predicts and manages resources, like fleet and driver capacity, to improve dispatch and routing, meeting the high expectations of today's customers.</p>
+            </div>
+            <div class="order-management-intelligent-order-stats">
+                <div class="order-management-stat-item">
+                    <span class="order-management-stat-percentage order-management-purple-text">1.22B+</span>
+                    <span class="order-management-stat-line order-management-purple-bg"></span>
+                    <p class="order-management-stat-description">Total deliveries optimized</p>
+                </div>
+                <div class="order-management-stat-item">
+                    <span class="order-management-stat-percentage order-management-blue-text">$303m+</span>
+                    <span class="order-management-stat-line order-management-blue-bg"></span>
+                    <p class="order-management-stat-description">Savings in logistics costs</p>
+                </div>
+                <div class="order-management-stat-item">
+                    <span class="order-management-stat-percentage order-management-orange-text">99.5%</span>
+                    <span class="order-management-stat-line order-management-orange-bg"></span>
+                    <p class="order-management-stat-description">On-time deliveries</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="order-management-fulfillment-challenges">
+        <div class="order-management-fulfillment-title">
+            <h1>Solve key capacity management challenges</h1>
+        </div>
+        <div class="order-management-fulfillment-image">
+            <img src="/assets/img/infographic-image-capacity-management.webp">
+        </div>
+    </div>
+    <div class="order-management-fulfillment-begining-to-end">
+            <div class="order-management-header">
+                <h1>Predictable capacity management for uninterrupted growth</h1>
+            </div>
+            <div class="order-management-box1">
+                <div class="order-management-box1-text">
+                    <h2>Helps you plan ahead (or at the last minute)</h2>
+                    <p>Avoid operational disruptions due to unpredictable demand and on-ground resource availability, with automated real-time scheduling.</p>
+                </div>
+                <div class="order-management-box1-img">
+                    <img src="../assets/img/edge-image-1-CM.webp" alt="" srcset="">
+                </div>
+            </div>
+            <div class="order-management-box2">
+                <div class="order-management-box2-text">
+                    <h2>Gain visibility into fleet operations</h2>
+                    <p>Define operating hours, apply shifts, and track the availability of drivers and vehicles across teams and geographies on a unified dashboard.</p>
+                </div>
+                <div class="order-management-box2-img">
+                    <img src="../assets/img/edge-image-2-CM.webp" alt="" srcset="">
+                </div>
+            </div>
+            <div class="order-management-box3">
+                <div class="order-management-box3-text">
+                    <h2>Plan around sick days and holidays</h2>
+                    <p>Avoid double booking or the underutilization of on-ground teams to ensure optimal capacity utilization bringing down delivery costs.</p>
+                </div>
+                <div class="order-management-box3-img">
+                    <img src="../assets/img/edge-image-3-CM.webp" alt="" srcset="">
+                </div>
+            </div>
+            <div class="order-management-box4">
+                <div class="order-management-box4-text">
+                    <h2>Dynamically engage carrier partners to meet extra demand</h2>
+                    <p>Outsource deliveries to third-party carriers to meet unexpected demand surges, daily peak windows, and peak season volumes.</p>
+                </div>
+                <div class="order-management-box4-img">
+                    <img src="../assets/img/edge-image-4-CM.webp" alt="" srcset="">
+                </div>
+            </div>
+            <div class="order-management-box5">
+                <div class="order-management-box5-text">
+                    <h2>Driver capacity-led operationsy</h2>
+                    <p>Increase first-attempt and on-time delivery rates, optimize fleet usage for profitability, and stay cost-efficient with flexible scheduling.</p>
+                </div>
+                <div class="order-management-box5-img">
+                    <img src="../assets/img/edge-image-5-CM.webp" alt="" srcset="">
+                </div>
+            </div>
+            
+        </div>
+        <div class="order-management-trusted">
+            <div class="order-management-trusted-text">
+                <h1>Trusted by leading brands in 30+ countries</h1>
+            </div>
+            <div class="order-management-trusted-logo">
+                <div class="order-management-trusted-logo1">
+                    <img src="../assets/img/logo-nestle.svg" alt="" srcset="">
+                </div>
+                <div class="order-management-trusted-logo2">
+                    <img src="../assets/img/home/logo-unilever.webp" alt="" srcset="">
+                </div>
+                <div class="order-management-trusted-logo1">
+                    <img src="../assets/img/home/logo-bluedart.webp" alt="" srcset="">
+                </div>
+                <div class="order-management-trusted-logo1">
+                    <img src="../assets/img/logo-tata.svg" alt="" srcset="">
+                </div>
+                <div class="order-management-trusted-logo1">
+                    <img src="../assets/img/logo-tforce.svg" alt="" srcset="">
+                </div>
+            </div>
+        </div>
+
+        <div class="order-management-locus-insight">
+            <div class="order-management-locus-insight-text">
+                <h1>Latest Locus insights</h1>
+            </div>
+            <div class="order-management-locus-insight-grid">
+                <div class="order-management-locus-insight-grid-box1">
+                    <img src="https://locus.sh/assets/img/platform/modules/capacity-management/image-resource-1.webp" alt="" srcset="">
+                    <span>BLOG</span>
+                    <h4>How Effective Capacity Planning is a Key to Success for Omnichannel</h4>
+                    <button>Read More</button>
+                </div>
+                <div class="order-management-locus-insight-grid-box2">
+                    <img src="https://locus.sh/assets/img/platform/modules/capacity-management/image-resource-2.webp" alt="" srcset="">
+                    <span>BLOG</span>
+                    <h4>Want to Offer Convenient Time-Slot Bookings for Customers?</h4>
+                    <button>Read More</button>
+                </div>
+                <div class="order-management-locus-insight-grid-box3">
+                    <img src="https://locus.sh/assets/img/platform/modules/capacity-management/image-resource-3.webp" alt="" srcset="">
+                    <span>BLOG</span>
+                    <h4>Can Retailers Reinvent the All-Mile? The Trillion-Dollar Question</h4>
+                    <button>Read More</button>
+                </div>
+                <div class="order-management-locus-insight-grid-box4">
+                    <img src="https://locus.sh/assets/img/platform/modules/capacity-management/image-resource-4.webp" alt="" srcset="">
+                    <span>BLOG</span>
+                    <h4>Retailers: Customized Delivery Options Is Key to Personalization</h4>
+                    <button>Read More</button>
+                </div>
+            </div>
+        </div>
+        <div class="order-management-locus-revenue-generator">
+            <h2>Convert your logistics operations to a revenue generator</h2>
+            <div class="order-management-locus-revenue-generator-button">
+                <button onclick="window.location.href='Pages/Schedule.html'">Schedule a demo</button>
+            </div>
+        </div>
+
+    <footer>
+        <div class="footer-top">
+            <div class="footer-newsletter">
+                <div class="logo-container-1">
+                    <img class="logo-W" src="../assets/img/logo/locus-white.svg" alt="Locus Logo">
+                </div>
+                <h3>Subscribe to our newsletter</h3>
+                <div class="newsletter-form">
+                    <input type="email" placeholder="Email Address*">
+                    <button>Subscribe</button>
+                </div>
+            </div>
+            <div class="footer-nav-links">
+                <div class="nav-column">
+                    <h4>Platform</h4>
+                    <ul>
+                        <li><a href="#">Platform Overview</a></li>
+                        <li><a href="#">Fulfillment Automation</a></li>
+                        <li><a href="#">Dispatch Planning</a></li>
+                        <li><a href="#">Delivery Orchestration</a></li>
+                        <li><a href="#">Track and Trace</a></li>
+                        <li><a href="#">Analytics and Insights</a></li>
+                    </ul>
+                </div>
+                <div class="nav-column">
+                    <h4>Industries</h4>
+                    <ul>
+                        <li><a href="#">Retail</a></li>
+                        <li><a href="#">FMCG/CPG</a></li>
+                        <li><a href="#">3PL & CEP</a></li>
+                        <li><a href="#">Big & Bulky</a></li>
+                        <li><a href="#">E-commerce</a></li>
+                        <li><a href="#">E-grocery</a></li>
+                        <li><a href="#">Industrial Services</a></li>
+                        <li><a href="#">Manufacturing</a></li>
+                        <li><a href="#">Home Services</a></li>
+                    </ul>
+                </div>
+                <div class="nav-column">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#">Whitepapers</a></li>
+                        <li><a href="#">Case Studies</a></li>
+                        <li><a href="#">Infographics</a></li>
+                        <li><a href="#">E-books</a></li>
+                        <li><a href="#">Blogs</a></li>
+                        <li><a href="#">Events & Webinars</a></li>
+                        <li><a href="#">Videos</a></li>
+                        <li><a href="#">API Reference Docs</a></li>
+                        <li><a href="#">Glossary</a></li>
+                    </ul>
+                </div>
+                <div class="nav-column">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Customers</a></li>
+                        <li><a href="#">Analyst Recognition</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Partners</a></li>
+                        <li><a href="#">News & Press</a></li>
+                        <li><a href="#">Trust & Security</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="footer-certifications">
+                <img src="../assets/flex-img/footer-certs.svg" alt="Certifications">
+            </div>
+            <p>© 2025 Mara Labs Inc. All rights reserved. <a href="#">Privacy</a> and <a href="#">Terms</a></p>
+            <div class="footer-social-media">
+                <a href="#"><img src="../assets/img/youtube.svg" alt="YouTube"></a>
+                <a href="#"><img src="../assets/img/linkedin.svg" alt="LinkedIn"></a>
+                <a href="#"><img src="../assets/img/twitter.svg" alt="X"></a>
+                <a href="#"><img src="../assets/img/instagram.svg" alt="Instagram"></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../assets/js/script.js"></script>
+    <script src="../assets/js/chatbot.js"></script>
+    <script src="logo/navbar.js"></script>
+    <!-- Chatbot Container -->
+    <div class="chat-container" id="chatContainer">
+        <div class="chat-header">
+            <h1>Locus Assistant</h1>
+            <p>How can I help you today?</p>
+             <button class="close-chatbot-btn" id="closeChatbotBtn">&times;</button>
+        </div>
+        <div class="chat-messages" id="chatMessages">
+            <!-- Messages will be added here dynamically -->
+        </div>
+        <div class="quick-replies" id="quickReplies">
+            <!-- Quick reply buttons will be added here dynamically -->
+        </div>
+        <div class="chat-input">
+            <input type="text" id="userInput" placeholder="Type your message...">
+            <button id="sendMessageBtn">Send</button>
+        </div>
+    </div>
+    <div class="chatbot-button">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M7.5 8.25h9m-9 3H12m-9.75 1.51c0 1.6 1.123 2.994 2.707 3.227 1.129.166 2.27.293 3.423.379.35.026.67.21.865.501L12 21l2.755-4.133a1.14 1.14 0 0 1 .865-.501 48.172 48.172 0 0 0 3.423-.379c1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0 0 12 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018Z" />
+        </svg>
+    </div>
+</body>
+</html>
